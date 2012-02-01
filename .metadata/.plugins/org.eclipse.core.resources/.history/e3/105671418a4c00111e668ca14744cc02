@@ -1,0 +1,7 @@
+package project.muphic.Rikitakelab;
+
+import android.view.View;
+
+public class Title extends View {
+
+}

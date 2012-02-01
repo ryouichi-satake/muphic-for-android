@@ -33,7 +33,7 @@ public class Muphic extends Activity {
     	//handler message
     	@Override
     	public void handleMessage(Message msg){
-    		view.invalidate();
+    		title.invalidate();
     		if(tickHandler!=null)tickHandler.sleep(100);
     	}
 

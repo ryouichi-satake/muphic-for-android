@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="42" version="2.0">
+<workbench progressCount="37" version="2.0">
 <workbenchAdvisor/>
 <window height="739" width="1024" x="-2" y="-1">
 <fastViewData fastViewLocation="1024"/>
@@ -36,13 +36,28 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Muphic.java" partName="Muphic.java" path="C:/muphicforAndroid/muphic-for-Android/muphic-for-Android/src/project/muphic/Rikitakelab/Muphic.java" title="Muphic.java" tooltip="muphic-for-Android/src/project/muphic/Rikitakelab/Muphic.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/muphic-for-Android/src/project/muphic/Rikitakelab/Muphic.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="336" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="547" selectionTopPixel="118"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Muphic.java" partName="Muphic.java" path="C:/Users/ryouichi/muphic-for-android-work/Muphic/src/net/pakage/muphic/Muphic.java" title="Muphic.java" tooltip="Muphic/src/net/pakage/muphic/Muphic.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Muphic/src/net/pakage/muphic/Muphic.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="320" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Title.java" partName="Title.java" path="C:/muphicforAndroid/muphic-for-Android/muphic-for-Android/src/project/muphic/Rikitakelab/Title.java" title="Title.java" tooltip="muphic-for-Android/src/project/muphic/Rikitakelab/Title.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/muphic-for-Android/src/project/muphic/Rikitakelab/Title.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="213" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Title.java" partName="Title.java" path="C:/Users/ryouichi/muphic-for-android-work/Muphic/src/net/pakage/muphic/Title.java" title="Title.java" tooltip="Muphic/src/net/pakage/muphic/Title.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Muphic/src/net/pakage/muphic/Title.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="50" selectionOffset="700" selectionTopPixel="72"/>
 </editor>
 </editors>
 <views>
@@ -57,8 +72,7 @@
 </view>
 <view id="org.eclipse.ui.views.AllMarkersView" partName="マーカー">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="マーカー">
-<expanded>
-<category IMemento.internal.id="Java の問題 (1 項目)"/>
+<expanded>&#x0A;<category IMemento.internal.id="Java の問題 (1 項目)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.allSeverityField="600" org.eclipse.ui.ide.locationField="180" org.eclipse.ui.ide.markerType="180" org.eclipse.ui.ide.pathField="240" org.eclipse.ui.ide.resourceField="180"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.allSeverityField"/>
@@ -75,6 +89,7 @@
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="問題">
 <expanded>
 <category IMemento.internal.id="エラー (1 項目)"/>
+<category IMemento.internal.id="エラー"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="180" org.eclipse.ui.ide.markerType="180" org.eclipse.ui.ide.pathField="240" org.eclipse.ui.ide.resourceField="180" org.eclipse.ui.ide.severityAndDescriptionField="600"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -210,30 +225,21 @@
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="topLeft">
-<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="プロジェクト・エクスプローラー"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="プロジェクト・エクスプローラー"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackagesView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="topLeft">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="250" ratioRight="750" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.699187" ratioLeft="430" ratioRight="185" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.AllMarkersView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.AllMarkersView" label="マーカー"/>
+<info folder="true" part="bottomRight" ratio="0.699187" ratioLeft="430" ratioRight="185" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.AllMarkersView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.AllMarkersView" label="マーカー"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="プロパティー"/>
 <page content="org.eclipse.wst.server.ui.ServersView" label="サーバー"/>
 <page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="データ・ソース・エクスプローラー"/>
@@ -244,8 +250,7 @@
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
@@ -253,12 +258,9 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="topRight" ratio="0.7" ratioLeft="525" ratioRight="225" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="アウトライン"/>
+<info folder="true" part="topRight" ratio="0.7" ratioLeft="525" ratioRight="225" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="アウトライン"/>
 <page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="タスク・リスト"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
@@ -417,9 +419,81 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/muphic-for-Android/src/project/muphic/Rikitakelab/Muphic.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Muphic/src/net/pakage/muphic/Muphic.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/muphic-for-Android/src/project/muphic/Rikitakelab/Title.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Muphic/src/net/pakage/muphic/Title.java"/>
 </editors>
-<item active="true" historyLabel="Muphic.java" index="0">
+<item historyLabel="Muphic.java" index="0">
 <position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Muphic.java" index="1">
+<position info="not_deleted" x="321" y="33"/>
+</item>
+<item historyLabel="Muphic.java" index="0">
+<position info="not_deleted" x="36" y="0"/>
+</item>
+<item historyLabel="Muphic.java" index="1">
+<position info="not_deleted" x="663" y="600"/>
+</item>
+<item historyLabel="Muphic.java" index="0">
+<position info="not_deleted" x="300" y="0"/>
+</item>
+<item historyLabel="Muphic.java" index="1">
+<position info="not_deleted" x="320" y="0"/>
+</item>
+<item historyLabel="Muphic.java" index="0">
+<position info="not_deleted" x="300" y="0"/>
+</item>
+<item historyLabel="Muphic.java" index="1">
+<position info="not_deleted" x="320" y="0"/>
+</item>
+<item historyLabel="Muphic.java" index="0">
+<position info="not_deleted" x="300" y="0"/>
+</item>
+<item historyLabel="Muphic.java" index="1">
+<position info="not_deleted" x="320" y="0"/>
+</item>
+<item historyLabel="Muphic.java" index="0">
+<position info="not_deleted" x="300" y="0"/>
+</item>
+<item historyLabel="Muphic.java" index="1">
+<position info="not_deleted" x="320" y="0"/>
+</item>
+<item historyLabel="Muphic.java" index="0">
+<position info="not_deleted" x="300" y="0"/>
+</item>
+<item historyLabel="Muphic.java" index="1">
+<position info="not_deleted" x="320" y="0"/>
+</item>
+<item historyLabel="Muphic.java" index="0">
+<position info="not_deleted" x="300" y="0"/>
+</item>
+<item historyLabel="Muphic.java" index="0">
+<position info="not_deleted" x="299" y="0"/>
+</item>
+<item historyLabel="Muphic.java" index="1">
+<position info="not_deleted" x="320" y="0"/>
+</item>
+<item historyLabel="Muphic.java" index="0">
+<position info="not_deleted" x="297" y="0"/>
+</item>
+<item historyLabel="Title.java" index="2">
+<position info="not_deleted" x="224" y="0"/>
+</item>
+<item historyLabel="Title.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Title.java" index="2">
+<position info="not_deleted" x="224" y="0"/>
+</item>
+<item historyLabel="Title.java" index="3">
+<position info="not_deleted" x="700" y="50"/>
+</item>
+<item historyLabel="Title.java" index="2">
+<position info="not_deleted" x="213" y="0"/>
+</item>
+<item active="true" historyLabel="Muphic.java" index="0">
+<position info="not_deleted" x="297" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -439,6 +513,15 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Title.java" tooltip="Muphic/src/net/pakage/muphic/Title.java">
+<persistable path="/Muphic/src/net/pakage/muphic/Title.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Title.java" tooltip="muphic-for-Android/src/project/muphic/Rikitakelab/Title.java">
+<persistable path="/muphic-for-Android/src/project/muphic/Rikitakelab/Title.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Muphic.java" tooltip="Muphic/src/net/pakage/muphic/Muphic.java">
+<persistable path="/Muphic/src/net/pakage/muphic/Muphic.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Muphic.java" tooltip="muphic-for-Android/src/project/muphic/Rikitakelab/Muphic.java">
 <persistable path="/muphic-for-Android/src/project/muphic/Rikitakelab/Muphic.java"/>
 </file>
