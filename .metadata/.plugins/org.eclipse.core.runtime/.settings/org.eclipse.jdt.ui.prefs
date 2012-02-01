@@ -1,4 +1,4 @@
-#Wed Feb 01 12:18:52 JST 2012
+#Wed Feb 01 13:06:59 JST 2012
 semanticHighlighting.parameterVariable.enabled=true
 stickyOccurrences=false
 content_assist_proposals_foreground=0,0,0
@@ -6,6 +6,7 @@ content_assist_favorite_static_members=org.hamcrest.CoreMatchers.*;org.junit.Ass
 spelling_locale_initialized=true
 semanticHighlighting.localVariableDeclaration.color=0,128,0
 semanticHighlighting.localVariable.enabled=true
+org.eclipse.jdt.ui.text.templates_migrated=true
 semanticHighlighting.parameterVariable.color=255,0,0
 semanticHighlighting.localVariableDeclaration.enabled=true
 useAnnotationsPrefPage=true
@@ -15,6 +16,7 @@ tabWidthPropagated=true
 org.eclipse.jdt.ui.editor.tab.width=
 fontPropagated=true
 org.eclipse.jdt.ui.javadoclocations.migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 proposalOrderMigrated=true
 semanticHighlighting.localVariableDeclaration.bold=true
 content_assist_proposals_background=255,255,255
@@ -22,4 +24,6 @@ org.eclipse.jdt.ui.formatterprofiles.version=12
 org.eclipse.jdt.internal.ui.navigator.layout=2
 content_assist_number_of_computers=22
 useQuickDiffPrefPage=true
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 semanticHighlighting.localVariable.color=0,128,0
+org.eclipse.jdt.ui.text.code_templates_migrated=true
