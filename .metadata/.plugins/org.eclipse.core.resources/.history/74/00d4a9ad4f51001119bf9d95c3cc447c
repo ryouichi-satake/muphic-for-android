@@ -26,9 +26,9 @@ public class Muphic extends Activity {
         muphiclist=new ArrayList<View>();
         muphiclist.clear();
         Title.CreateTitle(this);
-        StoryCreateWindow.CreateSCW(this);
+        StoryCriateWindow.CreateSCW(this);
         addContentView(Title.getInstance());
-        addContentView(StoryCreateWindow.getInstance());
+        addContentView(StoryCriateWindow.getInstance());
         setView(i);
     }
     public void addContentView(View instance) {
