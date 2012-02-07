@@ -1,0 +1,6 @@
+package project.muphic.Rikitakelab;
+
+public interface Creator {
+
+
+}

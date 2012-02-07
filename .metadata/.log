@@ -165,3 +165,85 @@ Binding(ALT+SHIFT+X R,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2012-02-07 11:31:51.415 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.net 1 0 2012-02-07 11:32:42.563
+!MESSAGE System property http.proxyHost is not set but should be wproxy.net.sendai-nct.ac.jp.
+
+!ENTRY org.eclipse.core.net 1 0 2012-02-07 11:32:42.583
+!MESSAGE System property http.proxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.core.net 1 0 2012-02-07 11:32:42.586
+!MESSAGE System property https.proxyHost is not set but should be wproxy.net.sendai-nct.ac.jp.
+
+!ENTRY org.eclipse.core.net 1 0 2012-02-07 11:32:42.588
+!MESSAGE System property https.proxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.core.net 1 0 2012-02-07 11:32:42.591
+!MESSAGE System property socksProxyHost is not set but should be wproxy.net.sendai-nct.ac.jp.
+
+!ENTRY org.eclipse.core.net 1 0 2012-02-07 11:32:42.593
+!MESSAGE System property socksProxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.core.net 1 0 2012-02-07 11:32:42.599
+!MESSAGE System property https.proxyHost is not set but should be wproxy.net.sendai-nct.ac.jp.
+
+!ENTRY org.eclipse.core.net 1 0 2012-02-07 11:32:42.601
+!MESSAGE System property https.proxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.core.net 1 0 2012-02-07 11:32:42.604
+!MESSAGE System property socksProxyHost is not set but should be wproxy.net.sendai-nct.ac.jp.
+
+!ENTRY org.eclipse.core.net 1 0 2012-02-07 11:32:42.610
+!MESSAGE System property socksProxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.core.net 1 0 2012-02-07 11:32:42.614
+!MESSAGE System property socksProxyHost is not set but should be wproxy.net.sendai-nct.ac.jp.
+
+!ENTRY org.eclipse.core.net 1 0 2012-02-07 11:32:42.616
+!MESSAGE System property socksProxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.jface 2 0 2012-02-07 11:32:56.979
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-02-07 11:32:56.979
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,サーバーでデバッグ,
+		サーバー上の現在の選択をデバッグ,
+		Category(org.eclipse.debug.ui.category.run,実行/デバッグ,コマンド実行/デバッグのカテゴリー,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.ui.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,実行/デバッグ,コマンド実行/デバッグのカテゴリー,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-02-07 11:32:56.979
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,サーバーで実行,
+		サーバー上の現在の選択を実行,
+		Category(org.eclipse.debug.ui.category.run,実行/デバッグ,コマンド実行/デバッグのカテゴリー,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.ui.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,実行/デバッグ,コマンド実行/デバッグのカテゴリー,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
