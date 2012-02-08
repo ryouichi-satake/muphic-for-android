@@ -1,0 +1,48 @@
+package project.muphic.Rikitakelab;
+
+import android.content.Context;
+import android.view.View;
+
+public class MusicCreateWindow extends View implements Creator {
+
+	public MusicCreateWindow(Context context) {
+		super(context);
+		// TODO 自動生成されたコンストラクター・スタブ
+	}
+
+	public void edit() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	public void play() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	public void titleBack() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	public void save() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	public void exchange() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	public void readFile() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	public void help() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+}

@@ -1,6 +1,6 @@
 package project.muphic.Rikitakelab;
 
-import android.app.Activity;
+
 import android.content.res.Resources;
 import android.graphics.*;
 import android.content.Context;
@@ -14,9 +14,15 @@ public class StoryCreateWindow extends View implements Creator {
 	private int touchX;
 	private int touchY;
 	private int touchAction=-999;
-	private Botton endbotton;
-	private Bitmap endbbotton;
-	private Bitmap endabotton;
+
+	private Button endbutton;
+	private Bitmap endbbutton;
+	private Bitmap endabutton;
+
+	private Button startbutton;
+	private Bitmap startbbutton;
+	private Bitmap startabutton;
+
 	private Muphic activity = (Muphic)getContext();
 	private static StoryCreateWindow SCW;
 
@@ -33,8 +39,10 @@ public class StoryCreateWindow extends View implements Creator {
 		super(context);
 		r=getResources();
 		bg=BitmapFactory.decodeResource(r, R.drawable.nextwindow);
-		endbbotton=BitmapFactory.decodeResource(r, R.drawable.end);
-		endabotton=BitmapFactory.decodeResource(r, R.drawable.pushend);
+		endbbutton=BitmapFactory.decodeResource(r, R.drawable.end);
+		endabutton=BitmapFactory.decodeResource(r, R.drawable.pushend);
+		startbbutton=BitmapFactory.decodeResource(r, R.drawable.start);
+		startabutton=BitmapFactory.decodeResource(r, R.drawable.pushstart);
 	}
 
 	public void onDraw(Canvas canvas){
@@ -42,17 +50,20 @@ public class StoryCreateWindow extends View implements Creator {
 		Rect src=new Rect(0,0,bg.getWidth(),bg.getHeight());
 		Rect dst=new Rect(0,0,getWidth(),getHeight());
 		canvas.drawBitmap(bg,src,dst,paint);
-		endbotton=new Botton(getWidth()-100,0,endbbotton,endabotton);
+		endbutton=new Button(getWidth()-100,0,endbbutton,endabutton);
+		startbutton=new Button(getWidth()-getWidth()/4-50,getHeight()/2,startbbutton,startabutton);
 
 		if(touchAction==MotionEvent.ACTION_DOWN||touchAction==MotionEvent.ACTION_MOVE){
-			endbotton.changeflag(touchX, touchY,false);
+			startbutton.changeflag(touchX, touchY,false);
+			endbutton.changeflag(touchX, touchY,false);
 		}
 
 		if(touchAction==MotionEvent.ACTION_UP){
-			endbotton.changeflag(touchX, touchY, true);
+			startbutton.changeflag(touchX, touchY,true);
+			endbutton.changeflag(touchX, touchY, true);
 		}
-
-		endbotton.display(canvas, paint);
+		startbutton.display(canvas, paint);
+		endbutton.display(canvas, paint);
 	}
 
 	public boolean onTouchEvent(MotionEvent event){
@@ -62,7 +73,10 @@ public class StoryCreateWindow extends View implements Creator {
 
 
 		if(touchAction==MotionEvent.ACTION_UP){
-			if(endbotton.changeflag(touchX, touchY, true)){
+			if(startbutton.changeflag(touchX, touchY,true)){
+				exchange();
+			}
+			if(endbutton.changeflag(touchX, touchY, true)){
 				titleBack();
 			}
 		}
@@ -93,7 +107,7 @@ public class StoryCreateWindow extends View implements Creator {
 
 	public void exchange() {
 		// TODO 自動生成されたメソッド・スタブ
-
+		activity.setView(Muphic.viewMusicCreateWindow);
 	}
 
 	public void readFile() {

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="37" version="2.0">
 <workbenchAdvisor/>
-<window height="739" width="1024" x="-2" y="-1">
+<window height="738" width="1024" x="-2" y="-1">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -40,29 +40,34 @@
 <part id="3"/>
 <part id="2"/>
 <part id="4"/>
+<part id="5"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Muphic.java" partName="Muphic.java" path="C:/muphicforAndroid/muphic-for-Android/muphic-for-Android/src/project/muphic/Rikitakelab/Muphic.java" title="Muphic.java" tooltip="muphic-for-Android/src/project/muphic/Rikitakelab/Muphic.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Muphic.java" partName="Muphic.java" path="C:/muphicforAndroid/muphic-for-Android/muphic-for-Android/src/project/muphic/Rikitakelab/Muphic.java" title="Muphic.java" tooltip="muphic-for-Android/src/project/muphic/Rikitakelab/Muphic.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/muphic-for-Android/src/project/muphic/Rikitakelab/Muphic.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="511" selectionTopPixel="62"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1077" selectionTopPixel="72"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Title.java" partName="Title.java" path="C:/muphicforAndroid/muphic-for-Android/muphic-for-Android/src/project/muphic/Rikitakelab/Title.java" title="Title.java" tooltip="muphic-for-Android/src/project/muphic/Rikitakelab/Title.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/muphic-for-Android/src/project/muphic/Rikitakelab/Title.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2780" selectionTopPixel="590"/>
+<editorState selectionHorizontalPixel="0" selectionLength="1" selectionOffset="2295" selectionTopPixel="15"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Botton.java" partName="Botton.java" path="C:/muphicforAndroid/muphic-for-Android/muphic-for-Android/src/project/muphic/Rikitakelab/Botton.java" title="Botton.java" tooltip="muphic-for-Android/src/project/muphic/Rikitakelab/Botton.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/muphic-for-Android/src/project/muphic/Rikitakelab/Botton.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="340" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Button.java" partName="Button.java" path="C:/muphicforAndroid/muphic-for-Android/muphic-for-Android/src/project/muphic/Rikitakelab/Button.java" title="Button.java" tooltip="muphic-for-Android/src/project/muphic/Rikitakelab/Button.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/muphic-for-Android/src/project/muphic/Rikitakelab/Button.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="107" selectionTopPixel="48"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StoryCreateWindow.java" partName="StoryCreateWindow.java" path="C:/muphicforAndroid/muphic-for-Android/muphic-for-Android/src/project/muphic/Rikitakelab/StoryCreateWindow.java" title="StoryCreateWindow.java" tooltip="muphic-for-Android/src/project/muphic/Rikitakelab/StoryCreateWindow.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/muphic-for-Android/src/project/muphic/Rikitakelab/StoryCreateWindow.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="452" selectionTopPixel="48"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1617" selectionTopPixel="576"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Creator.java" partName="Creator.java" path="C:/muphicforAndroid/muphic-for-Android/muphic-for-Android/src/project/muphic/Rikitakelab/Creator.java" title="Creator.java" tooltip="muphic-for-Android/src/project/muphic/Rikitakelab/Creator.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Creator.java" partName="Creator.java" path="C:/muphicforAndroid/muphic-for-Android/muphic-for-Android/src/project/muphic/Rikitakelab/Creator.java" title="Creator.java" tooltip="muphic-for-Android/src/project/muphic/Rikitakelab/Creator.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/muphic-for-Android/src/project/muphic/Rikitakelab/Creator.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="189" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="236" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MusicCreateWindow.java" partName="MusicCreateWindow.java" path="C:/muphicforAndroid/muphic-for-Android/muphic-for-Android/src/project/muphic/Rikitakelab/MusicCreateWindow.java" title="MusicCreateWindow.java" tooltip="muphic-for-Android/src/project/muphic/Rikitakelab/MusicCreateWindow.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/muphic-for-Android/src/project/muphic/Rikitakelab/MusicCreateWindow.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2115" selectionTopPixel="504"/>
 </editor>
 </editors>
 <views>
@@ -74,9 +79,6 @@
 </view>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="プロジェクト・エクスプローラー">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
-</view>
-<view id="com.android.ide.eclipse.ddms.views.LogCatView" partName="LogCat">
-<viewState/>
 </view>
 <view id="org.eclipse.ui.views.AllMarkersView" partName="マーカー">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="マーカー">
@@ -90,13 +92,16 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
+<view id="com.android.ide.eclipse.ddms.views.LogCatView" partName="LogCat">
+<viewState/>
+</view>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="スニペット"/>
 <view id="org.eclipse.ui.views.PropertySheet" partName="プロパティー"/>
 <view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="データ・ソース・エクスプローラー"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="問題">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="問題">
 <expanded>
-<category IMemento.internal.id="警告 (2 項目)"/>
+<category IMemento.internal.id="警告"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="180" org.eclipse.ui.ide.markerType="180" org.eclipse.ui.ide.pathField="240" org.eclipse.ui.ide.resourceField="180" org.eclipse.ui.ide.severityAndDescriptionField="600"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -105,6 +110,9 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="コンソール">
+<viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="パッケージ・エクスプローラー">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
@@ -137,9 +145,6 @@
 </xmlDefinedFilters>
 </customFilters>
 </viewState>
-</view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="コンソール">
-<viewState/>
 </view>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="タスク・リスト">
 <viewState linkWithEditor="true" presentation="org.eclipse.mylyn.tasks.ui.categorized">
@@ -278,7 +283,7 @@
 </mainWindow>
 </layout>
 </perspective>
-<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
@@ -348,28 +353,47 @@
 <perspective_action id="org.eclipse.wst.jsdt.ui.JavaPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="org.eclipse.jdt.ui.PackageExplorer"/>
-<view id="org.eclipse.ui.views.ProblemView"/>
-<view id="org.eclipse.jdt.ui.JavadocView"/>
-<view id="org.eclipse.jdt.ui.SourceView"/>
-<view id="com.android.ide.eclipse.ddms.views.LogCatView"/>
-<view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
-<view id="zigen.plugin.db.ui.views.TreeView"/>
-<fastViewBars/>
+<fastViewBars>
+<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="1">
+<fastViews>
+<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
+<view id="org.eclipse.jdt.ui.JavadocView" ratio="0.3"/>
+<view id="org.eclipse.jdt.ui.SourceView" ratio="0.3"/>
+<view id="com.android.ide.eclipse.ddms.views.LogCatView" ratio="0.3"/>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="16384" id="org.eclipse.ui.internal.ViewStack@19e0019" orientation="512" selectedTabId="zigen.plugin.db.ui.views.TreeView" style="1">
+<fastViews>
+<view id="zigen.plugin.db.ui.views.TreeView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="16384" id="left" orientation="512" selectedTabId="org.eclipse.jdt.ui.PackageExplorer" style="1">
+<fastViews>
+<view id="org.eclipse.jdt.ui.PackageExplorer" ratio="0.29915434"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="131072" id="right" orientation="256" selectedTabId="org.eclipse.ui.views.ContentOutline" style="1">
+<fastViews>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@296cad" orientation="256" selectedTabId="org.eclipse.mylyn.tasks.ui.views.tasks" style="1">
+<fastViews>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="left">
-<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.jdt.ui.PackageExplorer" label="パッケージ・エクスプローラー"/>
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="left">
@@ -381,49 +405,37 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="250" ratioRight="750" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.75" ratioLeft="447" ratioRight="149" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ProblemView" label="問題"/>
-<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
-<page content="org.eclipse.jdt.ui.SourceView" label="宣言"/>
-<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="コンソール"/>
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
+<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@296cad" ratio="0.7493333" ratioLeft="562" ratioRight="188" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.mylyn.tasks.ui.views.tasks" appearance="2" expanded="2">
-<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="タスク・リスト"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="right" ratio="0.49888143" ratioLeft="223" ratioRight="224" relationship="4" relative="org.eclipse.ui.internal.ViewStack@296cad">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="アウトライン"/>
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.egit.ui.RepositoriesView" ratio="0.5989933" ratioLeft="357" ratioRight="239" relationship="4" relative="left"/>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@19e0019" ratio="0.5" ratioLeft="298" ratioRight="298" relationship="4" relative="left">
-<folder activePageID="zigen.plugin.db.ui.views.TreeView" appearance="2" expanded="2">
-<page content="zigen.plugin.db.ui.views.TreeView" label="DB ツリー・ビュー"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<folder appearance="2" expanded="0">
+<page content="zigen.plugin.db.ui.views.TreeView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </mainWindow>
@@ -435,166 +447,158 @@
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/muphic-for-Android/src/project/muphic/Rikitakelab/Muphic.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/muphic-for-Android/src/project/muphic/Rikitakelab/Title.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ViewFlipper/src/net/pacage/viewfliptest/ViewFlipperActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/muphic-for-Android/src/project/muphic/Rikitakelab/StoryCriateWindow.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TouchTester/src/net/pakage/touchtester/Core.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TouchTester/src/net/pakage/touchtester/TTesterView.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/muphic-for-Android/src/project/muphic/Rikitakelab/Creator.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/muphic-for-Android/src/project/muphic/Rikitakelab/Muphic.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/muphic-for-Android/src/project/muphic/Rikitakelab/Title.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/muphic-for-Android/src/project/muphic/Rikitakelab/Botton.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/muphic-for-Android/src/project/muphic/Rikitakelab/Creator.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/muphic-for-Android/src/project/muphic/Rikitakelab/StoryCreateWindow.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/muphic-for-Android/src/project/muphic/Rikitakelab/MusicCreateWindow.java"/>
 </editors>
 <item historyLabel="Title.java" index="1">
-<position info="not_deleted" x="2780" y="0"/>
+<position info="not_deleted" x="2295" y="1"/>
 </item>
-<item historyLabel="StoryCriateWindow.java" index="3">
-<position info="not_deleted" x="606" y="0"/>
+<item historyLabel="StoryCreateWindow.java" index="2">
+<position info="not_deleted" x="2228" y="0"/>
 </item>
-<item historyLabel="StoryCriateWindow.java" index="3">
-<position info="not_deleted" x="1415" y="0"/>
+<item historyLabel="MusicCreateWindow.java" index="3">
+<position info="not_deleted" x="1141" y="0"/>
 </item>
-<item historyLabel="Muphic.java" index="0">
-<position info="not_deleted" x="1002" y="0"/>
+<item historyLabel="StoryCreateWindow.java" index="2">
+<position info="not_deleted" x="2228" y="0"/>
 </item>
-<item historyLabel="ViewFlipperActivity.java" index="2">
-<position info="not_deleted" x="310" y="0"/>
+<item historyLabel="MusicCreateWindow.java" index="3">
+<position info="not_deleted" x="70" y="0"/>
 </item>
-<item historyLabel="Muphic.java" index="0">
-<position info="not_deleted" x="1002" y="0"/>
+<item historyLabel="StoryCreateWindow.java" index="2">
+<position info="not_deleted" x="260" y="0"/>
 </item>
-<item historyLabel="Muphic.java" index="0">
-<position info="not_deleted" x="802" y="0"/>
+<item historyLabel="MusicCreateWindow.java" index="3">
+<position info="not_deleted" x="855" y="0"/>
 </item>
-<item historyLabel="Title.java" index="1">
-<position info="not_deleted" x="2024" y="0"/>
+<item historyLabel="StoryCreateWindow.java" index="2">
+<position info="not_deleted" x="377" y="82"/>
 </item>
-<item historyLabel="Muphic.java" index="0">
-<position info="not_deleted" x="511" y="0"/>
-</item>
-<item historyLabel="Title.java" index="1">
-<position info="not_deleted" x="2750" y="1"/>
-</item>
-<item historyLabel="StoryCriateWindow.java" index="3">
-<position info="not_deleted" x="574" y="0"/>
-</item>
-<item historyLabel="Muphic.java" index="0">
-<position info="not_deleted" x="511" y="0"/>
+<item historyLabel="MusicCreateWindow.java" index="3">
+<position info="not_deleted" x="855" y="0"/>
 </item>
 <item historyLabel="Title.java" index="1">
-<position info="not_deleted" x="2727" y="0"/>
+<position info="not_deleted" x="2295" y="1"/>
 </item>
-<item historyLabel="StoryCriateWindow.java" index="3">
-<position info="not_deleted" x="574" y="0"/>
+<item historyLabel="StoryCreateWindow.java" index="2">
+<position info="not_deleted" x="551" y="48"/>
+</item>
+<item historyLabel="MusicCreateWindow.java" index="3">
+<position info="not_deleted" x="855" y="0"/>
 </item>
 <item historyLabel="Title.java" index="1">
-<position info="not_deleted" x="2213" y="0"/>
+<position info="not_deleted" x="2295" y="1"/>
+</item>
+<item historyLabel="StoryCreateWindow.java" index="2">
+<position info="not_deleted" x="599" y="0"/>
+</item>
+<item historyLabel="MusicCreateWindow.java" index="3">
+<position info="not_deleted" x="855" y="0"/>
+</item>
+<item historyLabel="StoryCreateWindow.java" index="2">
+<position info="not_deleted" x="599" y="0"/>
+</item>
+<item historyLabel="MusicCreateWindow.java" index="3">
+<position info="not_deleted" x="855" y="0"/>
+</item>
+<item historyLabel="StoryCreateWindow.java" index="2">
+<position info="not_deleted" x="599" y="0"/>
+</item>
+<item historyLabel="MusicCreateWindow.java" index="3">
+<position info="not_deleted" x="855" y="0"/>
+</item>
+<item historyLabel="StoryCreateWindow.java" index="2">
+<position info="not_deleted" x="641" y="156"/>
+</item>
+<item historyLabel="MusicCreateWindow.java" index="3">
+<position info="not_deleted" x="809" y="0"/>
+</item>
+<item historyLabel="StoryCreateWindow.java" index="2">
+<position info="not_deleted" x="641" y="156"/>
+</item>
+<item historyLabel="MusicCreateWindow.java" index="3">
+<position info="not_deleted" x="809" y="0"/>
+</item>
+<item historyLabel="StoryCreateWindow.java" index="2">
+<position info="not_deleted" x="861" y="19"/>
+</item>
+<item historyLabel="MusicCreateWindow.java" index="3">
+<position info="not_deleted" x="1108" y="0"/>
+</item>
+<item historyLabel="StoryCreateWindow.java" index="2">
+<position info="not_deleted" x="942" y="127"/>
+</item>
+<item historyLabel="MusicCreateWindow.java" index="3">
+<position info="not_deleted" x="1108" y="0"/>
+</item>
+<item historyLabel="StoryCreateWindow.java" index="2">
+<position info="not_deleted" x="880" y="0"/>
+</item>
+<item historyLabel="MusicCreateWindow.java" index="3">
+<position info="not_deleted" x="1108" y="0"/>
+</item>
+<item historyLabel="MusicCreateWindow.java" index="3">
+<position info="not_deleted" x="1849" y="0"/>
+</item>
+<item historyLabel="StoryCreateWindow.java" index="2">
+<position info="not_deleted" x="880" y="0"/>
+</item>
+<item historyLabel="MusicCreateWindow.java" index="3">
+<position info="not_deleted" x="1849" y="0"/>
+</item>
+<item historyLabel="MusicCreateWindow.java" index="3">
+<position info="not_deleted" x="1182" y="0"/>
+</item>
+<item historyLabel="StoryCreateWindow.java" index="2">
+<position info="not_deleted" x="880" y="0"/>
+</item>
+<item historyLabel="MusicCreateWindow.java" index="3">
+<position info="not_deleted" x="1552" y="0"/>
+</item>
+<item historyLabel="StoryCreateWindow.java" index="2">
+<position info="not_deleted" x="1418" y="63"/>
+</item>
+<item historyLabel="MusicCreateWindow.java" index="3">
+<position info="not_deleted" x="1552" y="0"/>
+</item>
+<item historyLabel="StoryCreateWindow.java" index="2">
+<position info="not_deleted" x="1577" y="397"/>
+</item>
+<item historyLabel="MusicCreateWindow.java" index="3">
+<position info="not_deleted" x="1515" y="0"/>
+</item>
+<item historyLabel="StoryCreateWindow.java" index="2">
+<position info="not_deleted" x="1248" y="26"/>
+</item>
+<item historyLabel="MusicCreateWindow.java" index="3">
+<position info="not_deleted" x="851" y="0"/>
+</item>
+<item historyLabel="StoryCreateWindow.java" index="2">
+<position info="not_deleted" x="1979" y="350"/>
+</item>
+<item historyLabel="MusicCreateWindow.java" index="3">
+<position info="not_deleted" x="2193" y="0"/>
+</item>
+<item historyLabel="StoryCreateWindow.java" index="2">
+<position info="not_deleted" x="1617" y="0"/>
+</item>
+<item historyLabel="MusicCreateWindow.java" index="3">
+<position info="not_deleted" x="2115" y="0"/>
 </item>
 <item historyLabel="Muphic.java" index="0">
-<position info="not_deleted" x="511" y="0"/>
+<position info="not_deleted" x="510" y="0"/>
 </item>
 <item historyLabel="Title.java" index="1">
-<position info="not_deleted" x="2780" y="0"/>
+<position info="not_deleted" x="2295" y="1"/>
 </item>
-<item historyLabel="StoryCriateWindow.java" index="3">
-<position info="not_deleted" x="576" y="0"/>
+<item historyLabel="StoryCreateWindow.java" index="2">
+<position info="not_deleted" x="1617" y="0"/>
 </item>
-<item historyLabel="Core.java" index="4">
-<position info="not_deleted" x="240" y="0"/>
+<item historyLabel="Muphic.java" index="0">
+<position info="not_deleted" x="510" y="0"/>
 </item>
-<item historyLabel="StoryCriateWindow.java" index="3">
-<position info="not_deleted" x="576" y="0"/>
-</item>
-<item historyLabel="StoryCriateWindow.java" index="3">
-<position/>
-</item>
-<item historyLabel="StoryCriateWindow.java" index="3">
-<position info="not_deleted" x="796" y="0"/>
-</item>
-<item historyLabel="TTesterView.java" index="5">
-<position info="not_deleted" x="980" y="474"/>
-</item>
-<item historyLabel="StoryCriateWindow.java" index="3">
-<position info="not_deleted" x="796" y="0"/>
-</item>
-<item historyLabel="StoryCriateWindow.java" index="3">
-<position/>
-</item>
-<item historyLabel="StoryCriateWindow.java" index="3">
-<position info="not_deleted" x="1805" y="0"/>
-</item>
-<item historyLabel="TTesterView.java" index="5">
-<position info="not_deleted" x="2133" y="0"/>
-</item>
-<item historyLabel="StoryCriateWindow.java" index="3">
-<position info="not_deleted" x="403" y="0"/>
-</item>
-<item historyLabel="TTesterView.java" index="5">
-<position info="not_deleted" x="2133" y="0"/>
-</item>
-<item historyLabel="StoryCriateWindow.java" index="3">
-<position info="not_deleted" x="403" y="0"/>
-</item>
-<item historyLabel="Creator.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Creator.java" index="6">
-<position info="not_deleted" x="101" y="0"/>
-</item>
-<item historyLabel="Creator.java" index="6">
-<position info="not_deleted" x="139" y="0"/>
-</item>
-<item historyLabel="Creator.java" index="6">
-<position info="not_deleted" x="187" y="0"/>
-</item>
-<item historyLabel="Creator.java" index="6">
-<position info="not_deleted" x="225" y="0"/>
-</item>
-<item historyLabel="Creator.java" index="6">
-<position info="not_deleted" x="269" y="0"/>
-</item>
-<item historyLabel="Creator.java" index="6">
-<position info="not_deleted" x="317" y="0"/>
-</item>
-<item historyLabel="Creator.java" index="6">
-<position info="not_deleted" x="358" y="0"/>
-</item>
-<item historyLabel="StoryCriateWindow.java" index="3">
-<position info="not_deleted" x="403" y="0"/>
-</item>
-<item historyLabel="StoryCriateWindow.java" index="3">
-<position info="not_deleted" x="1943" y="0"/>
-</item>
-<item historyLabel="Creator.java" index="6">
-<position info="not_deleted" x="189" y="0"/>
-</item>
-<item historyLabel="StoryCriateWindow.java" index="3">
-<position info="not_deleted" x="1841" y="0"/>
-</item>
-<item historyLabel="Creator.java" index="6">
-<position info="not_deleted" x="189" y="0"/>
-</item>
-<item historyLabel="StoryCriateWindow.java" index="3">
-<position info="not_deleted" x="1841" y="0"/>
-</item>
-<item historyLabel="Muphic.java" index="7">
-<position info="not_deleted" x="511" y="0"/>
-</item>
-<item historyLabel="Title.java" index="8">
-<position info="not_deleted" x="2780" y="0"/>
-</item>
-<item historyLabel="Botton.java" index="9">
-<position info="not_deleted" x="340" y="0"/>
-</item>
-<item historyLabel="Creator.java" index="10">
-<position info="not_deleted" x="189" y="0"/>
-</item>
-<item historyLabel="StoryCreateWindow.java" index="11">
-<position info="not_deleted" x="452" y="0"/>
-</item>
-<item active="true" historyLabel="Creator.java" index="10">
-<position info="not_deleted" x="189" y="0"/>
+<item active="true" historyLabel="Muphic.java" index="0">
+<position info="not_deleted" x="973" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -602,6 +606,14 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@19e0019"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="right"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@296cad"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 <trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
@@ -610,10 +622,17 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MusicCreateWindow.java" tooltip="muphic-for-Android/src/project/muphic/Rikitakelab/MusicCreateWindow.java">
+<persistable path="/muphic-for-Android/src/project/muphic/Rikitakelab/MusicCreateWindow.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ViewList.java" tooltip="muphic-for-Android/src/project/muphic/Rikitakelab/ViewList.java">
+<persistable path="/muphic-for-Android/src/project/muphic/Rikitakelab/ViewList.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Creator.java" tooltip="muphic-for-Android/src/project/muphic/Rikitakelab/Creator.java">
 <persistable path="/muphic-for-Android/src/project/muphic/Rikitakelab/Creator.java"/>
 </file>

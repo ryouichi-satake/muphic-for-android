@@ -1,0 +1,17 @@
+package project.muphic.Rikitakelab;
+
+public class ViewList {
+	public static final ViewList ViewTitle = new ViewList(0);
+	public static final ViewList ViewSCW = new ViewList(1);
+	private final int setview;
+
+	private ViewList(int i) {
+		// TODO 自動生成されたコンストラクター・スタブ
+		setview=i;
+	}
+
+	public int getViewId(){
+		return setview;
+	}
+
+}

@@ -16,7 +16,8 @@ public class Muphic extends Activity {
 	private int i=0;
 	private TickHandler tickHandler;
 	public static final int viewTitle = 0;
-	public static final int viewStoryCriateWindow = 1;
+	public static final int viewStoryCreateWindow = 1;
+	public static final int viewMusicCreateWindow = 2;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -27,8 +28,10 @@ public class Muphic extends Activity {
         muphiclist.clear();
         Title.CreateTitle(this);
         StoryCreateWindow.CreateSCW(this);
+        MusicCreateWindow.CreateMCW(this);
         addContentView(Title.getInstance());
         addContentView(StoryCreateWindow.getInstance());
+        addContentView(MusicCreateWindow.getInstance());
         setView(i);
     }
     public void addContentView(View instance) {

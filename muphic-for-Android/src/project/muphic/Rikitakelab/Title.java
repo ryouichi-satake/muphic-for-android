@@ -1,6 +1,6 @@
 package project.muphic.Rikitakelab;
 
-import android.app.Activity;
+
 import android.content.res.Resources;
 import android.content.*;
 import android.graphics.*;
@@ -12,14 +12,14 @@ public class Title extends View{
 	private int touchX;
 	private int touchY;
 	private int touchAction=-999;
-	private Bitmap endbbotton;
-	private Bitmap endabotton;
-	private Bitmap startbbotton;
-	private Bitmap startabotton;
-	private Bitmap contbbotton;
-	private Bitmap contabotton;
+	private Bitmap endbbutton;
+	private Bitmap endabutton;
+	private Bitmap startbbutton;
+	private Bitmap startabutton;
+	private Bitmap contbbutton;
+	private Bitmap contabutton;
 	private Bitmap bg;
-	private Botton startbotton,endbotton,contbotton;
+	private Button startbutton,endbutton,contbutton;
 	private Resources r;
 	private Muphic activity = (Muphic)getContext();
 	private static Title title;
@@ -37,12 +37,12 @@ public class Title extends View{
 		super(context);
 		r=getResources();
 		setBackgroundColor(Color.WHITE);
-		endbbotton=BitmapFactory.decodeResource(r, R.drawable.end);
-		endabotton=BitmapFactory.decodeResource(r, R.drawable.pushend);
-		startbbotton=BitmapFactory.decodeResource(r, R.drawable.start);
-		startabotton=BitmapFactory.decodeResource(r, R.drawable.pushstart);
-		contbbotton=BitmapFactory.decodeResource(r, R.drawable.contenue);
-		contabotton=BitmapFactory.decodeResource(r, R.drawable.pushcontenue);
+		endbbutton=BitmapFactory.decodeResource(r, R.drawable.end);
+		endabutton=BitmapFactory.decodeResource(r, R.drawable.pushend);
+		startbbutton=BitmapFactory.decodeResource(r, R.drawable.start);
+		startabutton=BitmapFactory.decodeResource(r, R.drawable.pushstart);
+		contbbutton=BitmapFactory.decodeResource(r, R.drawable.contenue);
+		contabutton=BitmapFactory.decodeResource(r, R.drawable.pushcontenue);
 		bg=BitmapFactory.decodeResource(r, R.drawable.title);
 
 		setFocusable(true);
@@ -51,27 +51,27 @@ public class Title extends View{
 	protected void onDraw(Canvas canvas){
 		Paint paint=new Paint();
 		paint.setAntiAlias(true);
-		endbotton=new Botton(getWidth()-100,0,endbbotton,endabotton);
-		startbotton=new Botton(getWidth()-getWidth()/4-50,getHeight()/2,startbbotton,startabotton);
-		contbotton=new Botton(getWidth()/4-75,getHeight()/2,contbbotton,contabotton);
+		endbutton=new Button(getWidth()-100,0,endbbutton,endabutton);
+		startbutton=new Button(getWidth()-getWidth()/4-50,getHeight()/2,startbbutton,startabutton);
+		contbutton=new Button(getWidth()/4-75,getHeight()/2,contbbutton,contabutton);
 		if(touchAction==MotionEvent.ACTION_DOWN||touchAction==MotionEvent.ACTION_MOVE){
-			startbotton.changeflag(touchX, touchY,false);
-			endbotton.changeflag(touchX, touchY,false);
-			contbotton.changeflag(touchX, touchY,false);
+			startbutton.changeflag(touchX, touchY,false);
+			endbutton.changeflag(touchX, touchY,false);
+			contbutton.changeflag(touchX, touchY,false);
 		}
 
 		if(touchAction==MotionEvent.ACTION_UP){
-			startbotton.changeflag(touchX, touchY,true);
-			endbotton.changeflag(touchX, touchY,true);
-			contbotton.changeflag(touchX, touchY,true);
+			startbutton.changeflag(touchX, touchY,true);
+			endbutton.changeflag(touchX, touchY,true);
+			contbutton.changeflag(touchX, touchY,true);
 
 		}
 		Rect src=new Rect(0,0,bg.getWidth(),bg.getHeight());
 		Rect dst=new Rect(0,0,getWidth(),getHeight());
 		canvas.drawBitmap(bg,src,dst,paint);
-		startbotton.display(canvas, paint);
-		endbotton.display(canvas, paint);
-		contbotton.display(canvas, paint);
+		startbutton.display(canvas, paint);
+		endbutton.display(canvas, paint);
+		contbutton.display(canvas, paint);
 		}
 
 	public boolean onTouchEvent(MotionEvent event){
@@ -80,10 +80,10 @@ public class Title extends View{
 		touchAction=event.getAction();
 
 		if(touchAction==MotionEvent.ACTION_UP){
-			if(startbotton.changeflag(touchX, touchY,true)){
-				activity.setView(Muphic.viewStoryCriateWindow);
+			if(startbutton.changeflag(touchX, touchY,true)){
+				activity.setView(Muphic.viewStoryCreateWindow);
 			}
-			if(endbotton.changeflag(touchX, touchY, true)){
+			if(endbutton.changeflag(touchX, touchY, true)){
 				activity.finish();
 			}
 		}

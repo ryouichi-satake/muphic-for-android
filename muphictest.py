@@ -32,25 +32,42 @@ MonkeyRunner.sleep(1)
 # Takes a screenshot
 result = device.takeSnapshot()
 
-# Writes the screenshot to a file
+# TitleWindow
 result.writeToFile('C:/muphicforAndroid/muphic-for-Android/Screenshot/shot1.png','png')
-
-#device.touch(dispWidth-(dispWidth/4-40),dispHeight/2+30,MonkeyDevice.DOWN_AND_UP)
 
 MonkeyRunner.sleep(0.3)
 
 device.touch(787,363,MonkeyDevice.DOWN)
 MonkeyRunner.sleep(0.1)
 device.touch(787,363,MonkeyDevice.UP)
-#device.drag((787,363),(787,363),2,90)
 
 MonkeyRunner.sleep(1)
 
 # Takes a screenshot
 result = device.takeSnapshot()
 
-# Writes the screenshot to a file
+# Story Create Window
 result.writeToFile('C:/muphicforAndroid/muphic-for-Android/Screenshot/shot2.png','png')
+
+MonkeyRunner.sleep(0.3)
+
+device.touch(787,363,MonkeyDevice.DOWN)
+MonkeyRunner.sleep(0.1)
+device.touch(787,363,MonkeyDevice.UP)
+
+MonkeyRunner.sleep(1)
+
+# Takes a screenshot
+result = device.takeSnapshot()
+
+# Mushic Create Window
+result.writeToFile('C:/muphicforAndroid/muphic-for-Android/Screenshot/shot3.png','png')
+
+MonkeyRunner.sleep(0.3)
+
+device.touch(1000,50,MonkeyDevice.DOWN)
+MonkeyRunner.sleep(0.1)
+device.touch(1000,50,MonkeyDevice.UP)
 
 MonkeyRunner.sleep(0.3)
 
@@ -62,7 +79,8 @@ MonkeyRunner.sleep(1)
 
 result=device.takeSnapshot()
 
-result.writeToFile('C:/muphicforAndroid/muphic-for-Android/Screenshot/shot3.png','png')
+#Back to Title from Story Create Window
+result.writeToFile('C:/muphicforAndroid/muphic-for-Android/Screenshot/shot4.png','png')
 
 MonkeyRunner.sleep(0.3)
 
