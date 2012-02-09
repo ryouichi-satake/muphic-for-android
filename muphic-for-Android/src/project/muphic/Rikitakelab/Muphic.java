@@ -13,11 +13,14 @@ public class Muphic extends Activity {
     /** Called when the activity is first created. */
 
 	private ArrayList<View> muphiclist;
-	private int i=0;
+	private int place=0;
 	private TickHandler tickHandler;
 	public static final int viewTitle = 0;
 	public static final int viewStoryCreateWindow = 1;
 	public static final int viewMusicCreateWindow = 2;
+	public static final int viewBackGroundSelect = 3;
+	public static final int viewCharacterSelect = 4;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -26,23 +29,32 @@ public class Muphic extends Activity {
         getWindow().setFormat(PixelFormat.TRANSLUCENT);
         muphiclist=new ArrayList<View>();
         muphiclist.clear();
+
         Title.CreateTitle(this);
-        StoryCreateWindow.CreateSCW(this);
-        MusicCreateWindow.CreateMCW(this);
         addContentView(Title.getInstance());
+
+        StoryCreateWindow.CreateSCW(this);
         addContentView(StoryCreateWindow.getInstance());
+
+        MusicCreateWindow.CreateMCW(this);
         addContentView(MusicCreateWindow.getInstance());
-        setView(i);
+
+        BackGroundSelect.CreateBGS(this);
+        addContentView(BackGroundSelect.getInstance());
+
+        CharacterSelect.CreateCS(this);
+        addContentView(CharacterSelect.getInstance());
+
+        setView(place);
     }
     public void addContentView(View instance) {
-		// TODO 自動生成されたメソッド・スタブ
 		muphiclist.add(instance);
 	}
 
     public boolean setView(int i) {
-    	this.i=i;
+    	this.place=i;
     if(muphiclist.size()!=0) {
-       super.setContentView(muphiclist.get(this.i));
+       super.setContentView(muphiclist.get(this.place));
        return true;
       }
       return false;
@@ -50,7 +62,7 @@ public class Muphic extends Activity {
 
     private View getContentView(){
     	if(muphiclist.size()!=0) {
-    		return muphiclist.get(this.i);
+    		return muphiclist.get(this.place);
     	}
     	else return null;
     }

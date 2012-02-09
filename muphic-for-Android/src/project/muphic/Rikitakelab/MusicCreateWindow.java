@@ -25,7 +25,7 @@ public class MusicCreateWindow extends View implements Creator {
 	private static MusicCreateWindow MCW;
 
 	public static void CreateMCW(Muphic activity){
-		MCW= new MusicCreateWindow(activity);
+		MCW = new MusicCreateWindow(activity);
 	}
 
 	public static MusicCreateWindow getInstance(){
@@ -38,8 +38,6 @@ public class MusicCreateWindow extends View implements Creator {
 		endbbutton=BitmapFactory.decodeResource(r, R.drawable.end);
 		endabutton=BitmapFactory.decodeResource(r, R.drawable.pushend);
 		setBackgroundColor(Color.CYAN);
-		// TODO 自動生成されたコンストラクター・スタブ
-
 	}
 
 	public void onDraw(Canvas canvas){
@@ -72,37 +70,30 @@ public class MusicCreateWindow extends View implements Creator {
 	}
 
 	public void edit() {
-		// TODO 自動生成されたメソッド・スタブ
 
 	}
 
 	public void play() {
-		// TODO 自動生成されたメソッド・スタブ
 
 	}
 
 	public void titleBack() {
-		// TODO 自動生成されたメソッド・スタブ
 
 	}
 
 	public void save() {
-		// TODO 自動生成されたメソッド・スタブ
 
 	}
 
 	public void exchange() {
-		// TODO 自動生成されたメソッド・スタブ
 		activity.setView(Muphic.viewStoryCreateWindow);
 	}
 
 	public void readFile() {
-		// TODO 自動生成されたメソッド・スタブ
 
 	}
 
 	public void help() {
-		// TODO 自動生成されたメソッド・スタブ
 
 	}
 

@@ -19,24 +19,24 @@ public class Button {
 	public void display(Canvas canvas,Paint paint){
 		if(flag==false){
 			Rect src=new Rect(0,0,bbotton.getWidth(),bbotton.getHeight());
-			Rect dst=new Rect(x,y,x+bbotton.getWidth()/2,y+bbotton.getHeight()/2);
+			Rect dst=new Rect(x,y,x+bbotton.getWidth(),y+bbotton.getHeight());
 			canvas.drawBitmap(bbotton,src,dst,paint);
 		}
-		if(flag==true){
+		else{
 			Rect src=new Rect(0,0,abotton.getWidth(),abotton.getHeight());
-			Rect dst=new Rect(x,y,x+abotton.getWidth()/2,y+abotton.getHeight()/2);
+			Rect dst=new Rect(x,y,x+abotton.getWidth(),y+abotton.getHeight());
 			canvas.drawBitmap(abotton,src,dst,paint);
 
 		}
 	}
 
 	public boolean changeflag(int touchX,int touchY,boolean select){
-		if(select==false&&flag==false&&touchX>x&&touchY>y&&touchX<x+bbotton.getWidth()/2&&touchY<y+bbotton.getHeight()/2)
+		if(select==false&&flag==false&&touchX>x&&touchY>y&&touchX<x+bbotton.getWidth()&&touchY<y+bbotton.getHeight())
 		{
 			flag=true;
 			return true;
 		}
-		else if(select==true&&flag==true&&touchX>x&&touchY>y&&touchX<x+abotton.getWidth()/2&&touchY<y+abotton.getHeight()/2)
+		else if(select==true&&flag==true&&touchX>x&&touchY>y&&touchX<x+abotton.getWidth()&&touchY<y+abotton.getHeight())
 		{
 			flag=false;
 			return true;
