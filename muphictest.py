@@ -117,6 +117,20 @@ result.writeToFile('C:/muphicforAndroid/muphic-for-Android/Screenshot/CharacterS
 
 
 
+device.touch(21,75,MonkeyDevice.DOWN)
+MonkeyRunner.sleep(0.1)
+device.touch(21,75,MonkeyDevice.UP)
+
+MonkeyRunner.sleep(0.1)
+
+# Takes a screenshot
+result = device.takeSnapshot()
+
+# Push BoyButton
+result.writeToFile('C:/muphicforAndroid/muphic-for-Android/Screenshot/PushBoyButton.png','png')
+
+
+
 device.touch(16,35,MonkeyDevice.DOWN)
 MonkeyRunner.sleep(0.1)
 device.touch(16,35,MonkeyDevice.UP)

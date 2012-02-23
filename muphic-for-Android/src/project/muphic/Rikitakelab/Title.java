@@ -55,15 +55,15 @@ public class Title extends View{
 		startbutton=new Button(getWidth()-getWidth()/4-50,getHeight()/2,startbbutton,startabutton);
 		contbutton=new Button(getWidth()/4-75,getHeight()/2,contbbutton,contabutton);
 		if(touchAction==MotionEvent.ACTION_DOWN||touchAction==MotionEvent.ACTION_MOVE){
-			startbutton.changeflag(touchX, touchY,false);
-			endbutton.changeflag(touchX, touchY,false);
-			contbutton.changeflag(touchX, touchY,false);
+			if(startbutton.judge(touchX, touchY,false))startbutton.pushButton();
+			if(endbutton.judge(touchX, touchY,false))endbutton.pushButton();
+			if(contbutton.judge(touchX, touchY,false))contbutton.pushButton();
 		}
 
 		if(touchAction==MotionEvent.ACTION_UP){
-			startbutton.changeflag(touchX, touchY,true);
-			endbutton.changeflag(touchX, touchY,true);
-			contbutton.changeflag(touchX, touchY,true);
+			startbutton.judge(touchX, touchY,true);
+			endbutton.judge(touchX, touchY,true);
+			contbutton.judge(touchX, touchY,true);
 
 		}
 		Rect src=new Rect(0,0,bg.getWidth(),bg.getHeight());
@@ -80,10 +80,10 @@ public class Title extends View{
 		touchAction=event.getAction();
 
 		if(touchAction==MotionEvent.ACTION_UP){
-			if(startbutton.changeflag(touchX, touchY,true)){
+			if(startbutton.judge(touchX, touchY,true)){
 				activity.setView(Muphic.viewStoryCreateWindow);
 			}
-			if(endbutton.changeflag(touchX, touchY, true)){
+			if(endbutton.judge(touchX, touchY, true)){
 				activity.finish();
 			}
 		}

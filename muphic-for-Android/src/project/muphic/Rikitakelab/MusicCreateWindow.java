@@ -45,11 +45,11 @@ public class MusicCreateWindow extends View implements Creator {
 		endbutton=new Button(getWidth()-100,0,endbbutton,endabutton);
 
 		if(touchAction==MotionEvent.ACTION_DOWN||touchAction==MotionEvent.ACTION_MOVE){
-			endbutton.changeflag(touchX, touchY,false);
+			if(endbutton.judge(touchX, touchY,false))endbutton.pushButton();
 		}
 
 		if(touchAction==MotionEvent.ACTION_UP){
-			endbutton.changeflag(touchX, touchY, true);
+			if(endbutton.judge(touchX, touchY, true))endbutton.pushButton();
 		}
 		endbutton.display(canvas, paint);
 	}
@@ -61,7 +61,7 @@ public class MusicCreateWindow extends View implements Creator {
 
 
 		if(touchAction==MotionEvent.ACTION_UP){
-			if(endbutton.changeflag(touchX, touchY, true)){
+			if(endbutton.judge(touchX, touchY, true)){
 				exchange();
 			}
 		}

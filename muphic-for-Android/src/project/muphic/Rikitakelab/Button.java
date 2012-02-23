@@ -30,21 +30,25 @@ public class Button {
 		}
 	}
 
-	public boolean changeflag(int touchX,int touchY,boolean select){
+	public boolean judge(int touchX,int touchY,boolean select){
 		if(select==false&&flag==false&&touchX>x&&touchY>y&&touchX<x+bbotton.getWidth()&&touchY<y+bbotton.getHeight())
 		{
-			flag=true;
 			return true;
 		}
 		else if(select==true&&flag==true&&touchX>x&&touchY>y&&touchX<x+abotton.getWidth()&&touchY<y+abotton.getHeight())
 		{
-			flag=false;
 			return true;
 		}
 		return false;
 	}
 
+	public void pullButton(){
+		flag=false;
+	}
 
+	public void pushButton(){
+		flag=true;
+	}
 
 
 }

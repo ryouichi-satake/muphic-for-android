@@ -1,0 +1,106 @@
+package project.muphic.Rikitakelab;
+
+import android.content.Context;
+import android.content.res.Resources;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.view.MotionEvent;
+import android.view.View;
+
+public class BackGroundSelect extends View implements Editor {
+	private Resources r;
+	private int touchX;
+	private int touchY;
+	private int touchAction=-999;
+
+	private Muphic activity = (Muphic)getContext();
+	private Bitmap backbbutton;
+	private Bitmap backabutton;
+	private Button backbutton;
+
+	private Bitmap characterbbutton;
+	private Bitmap characterabutton;
+	private Button characterbutton;
+
+	private static BackGroundSelect BGS;
+
+
+	public static void CreateBGS(Muphic activity){
+		BGS = new BackGroundSelect(activity);
+	}
+
+	public static BackGroundSelect getInstance(){
+		return BGS;
+	}
+	public BackGroundSelect(Context context) {
+		super(context);
+		r=getResources();
+		characterbbutton=BitmapFactory.decodeResource(r, R.drawable.tab_character);
+		characterabutton=BitmapFactory.decodeResource(r, R.drawable.tab_character_t);
+		setBackgroundColor(Color.BLACK);
+	}
+
+	public void onDraw(Canvas canvas){
+		Paint paint = new Paint();
+
+		characterbutton=new Button(11,5,characterbbutton,characterabutton);
+
+		if(touchAction==MotionEvent.ACTION_DOWN||touchAction==MotionEvent.ACTION_MOVE){
+			characterbutton.changeflag(touchX, touchY,false);
+		}
+
+		if(touchAction==MotionEvent.ACTION_UP){
+			characterbutton.changeflag(touchX, touchY, true);
+		}
+		characterbutton.display(canvas, paint);
+	}
+
+	public boolean onTouchEvent(MotionEvent event){
+		touchX=(int)event.getX();
+		touchY=(int)event.getY();
+		touchAction=event.getAction();
+
+		if(touchAction==MotionEvent.ACTION_UP){
+
+			if(characterbutton.changeflag(touchX, touchY, true)){
+				activity.setView(Muphic.viewCharacterSelect);
+			}
+		}
+
+		return true;
+	}
+
+	public void close() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	public void firstSelect() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	public void secondSelect() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	public void thirdSelect() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	public void delete() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	public void deleteAll() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+}

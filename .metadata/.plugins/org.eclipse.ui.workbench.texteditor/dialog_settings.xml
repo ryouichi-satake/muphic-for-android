@@ -3,18 +3,19 @@
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="407" key="DIALOG_WIDTH"/>
 		<item value="143" key="DIALOG_Y_ORIGIN"/>
-		<item value="584" key="DIALOG_X_ORIGIN"/>
 		<item value="410" key="DIALOG_HEIGHT"/>
+		<item value="584" key="DIALOG_X_ORIGIN"/>
 		<item value="1|メイリオ|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|メイリオ" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="casesensitive"/>
 		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="exchabutton" key="selection"/>
+		<item value="judge" key="selection"/>
 		<list key="findhistory">
+			<item value="changeflag"/>
 			<item value="startabutton"/>
 			<item value="startbbutton"/>
 			<item value="startbutton"/>
@@ -22,9 +23,9 @@
 			<item value="endbbutton"/>
 			<item value="endbutton"/>
 			<item value="backtitlebutton"/>
-			<item value="endabotton"/>
 		</list>
 		<list key="replacehistory">
+			<item value="judge"/>
 			<item value="exchabutton"/>
 			<item value="exchbbutton"/>
 			<item value="exchbutton"/>
@@ -32,7 +33,6 @@
 			<item value="backtitlebbutton"/>
 			<item value="backtitlebutton"/>
 			<item value="endbbutton"/>
-			<item value="endabutton"/>
 		</list>
 	</section>
 </section>

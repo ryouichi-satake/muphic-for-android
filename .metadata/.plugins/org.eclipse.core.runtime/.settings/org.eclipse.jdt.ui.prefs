@@ -1,4 +1,4 @@
-#Tue Feb 07 14:44:38 JST 2012
+#Fri Feb 10 16:09:37 JST 2012
 content_assist_proposals_foreground=0,0,0
 semanticHighlighting.parameterVariable.enabled=true
 stickyOccurrences=false
@@ -27,5 +27,5 @@ content_assist_number_of_computers=22
 useQuickDiffPrefPage=true
 org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 semanticHighlighting.localVariable.color=0,128,0
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"/>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Enum"><rhs name\="android.graphics.Paint$Style"/></lhs></history>
 org.eclipse.jdt.ui.text.code_templates_migrated=true

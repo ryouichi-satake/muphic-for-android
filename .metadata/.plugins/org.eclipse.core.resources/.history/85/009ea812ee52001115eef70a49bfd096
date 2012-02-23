@@ -1,0 +1,64 @@
+package project.muphic.Rikitakelab;
+
+import android.content.Context;
+import android.content.res.Resources;
+import android.graphics.Bitmap;
+import android.graphics.Color;
+import android.view.View;
+
+public class BackGroundSelect extends View implements Editor {
+	private Resources r;
+	private int touchX;
+	private int touchY;
+	private int touchAction=-999;
+
+	private Muphic activity = (Muphic)getContext();
+	private Bitmap backbbutton;
+	private Bitmap backabutton;
+	private Button backbutton;
+	private static BackGroundSelect BGS;
+
+
+	public static void CreateCS(Muphic activity){
+		BGS = new BackGroundSelect(activity);
+	}
+
+	public static BackGroundSelect getInstance(){
+		return BGS;
+	}
+	public BackGroundSelect(Context context) {
+		super(context);
+		setBackgroundColor(Color.BLACK);
+	}
+
+	public void close() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	public void firstSelect() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	public void secondSelect() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	public void thirdSelect() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	public void delete() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	public void deleteAll() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+}

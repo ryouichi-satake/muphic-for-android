@@ -1,0 +1,129 @@
+package project.muphic.Rikitakelab;
+
+import android.content.Context;
+import android.content.res.Resources;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.view.MotionEvent;
+import android.view.View;
+
+public class CharacterSelect extends View implements Editor {
+
+	private Resources r;
+	private int touchX;
+	private int touchY;
+	private int touchAction=-999;
+
+	private Button backbutton;
+	private Bitmap backbbutton;
+	private Bitmap backabutton;
+
+	private Button backgroundbutton;
+	private Bitmap backgroundbbutton;
+	private Bitmap backgroundabutton;
+
+	private Button boybutton;
+	private Bitmap boybbutton;
+	private Bitmap boyabutton;
+
+
+	private Bitmap selftab;
+
+	private Muphic activity = (Muphic)getContext();
+	private static CharacterSelect CS;
+
+
+	public static void CreateCS(Muphic activity){
+		CS = new CharacterSelect(activity);
+	}
+
+	public static CharacterSelect getInstance(){
+		return CS;
+	}
+
+	public CharacterSelect(Context context) {
+		super(context);
+		r=getResources();
+		backbbutton=BitmapFactory.decodeResource(r, R.drawable.tab_close);
+		backabutton=BitmapFactory.decodeResource(r, R.drawable.tab_close_t);
+		backgroundbbutton=BitmapFactory.decodeResource(r, R.drawable.tab_background);
+		backgroundabutton=BitmapFactory.decodeResource(r, R.drawable.tab_background_t);
+		boybbutton=BitmapFactory.decodeResource(r, R.drawable.character_boy);
+		boyabutton=BitmapFactory.decodeResource(r, R.drawable.character_boy_t);
+		selftab=BitmapFactory.decodeResource(r, R.drawable.tab_character_t);
+		setBackgroundColor(Color.WHITE);
+	}
+
+	public void onDraw(Canvas canvas){
+		Paint paint = new Paint();
+		backbutton=new Button(getWidth()-163,5,backbbutton,backabutton);
+		backgroundbutton=new Button(11,5,backgroundbbutton,backgroundabutton);
+		boybutton=new Button(16,35,boybbutton,boyabutton);
+
+		if(touchAction==MotionEvent.ACTION_DOWN||touchAction==MotionEvent.ACTION_MOVE){
+			backbutton.changeflag(touchX, touchY,false);
+			backgroundbutton.changeflag(touchX, touchY,false);
+			boybutton.changeflag(touchX, touchY, false);
+		}
+
+		if(touchAction==MotionEvent.ACTION_UP){
+			backbutton.changeflag(touchX, touchY, true);
+			backgroundbutton.changeflag(touchX, touchY,true);
+			//boybutton.changeflag(touchX, touchY, true);
+		}
+		backbutton.display(canvas, paint);
+		backgroundbutton.display(canvas, paint);
+		boybutton.display(canvas, paint);
+		canvas.drawBitmap(selftab, 186, 5, paint);
+	}
+
+	public boolean onTouchEvent(MotionEvent event){
+		touchX=(int)event.getX();
+		touchY=(int)event.getY();
+		touchAction=event.getAction();
+
+		if(touchAction==MotionEvent.ACTION_UP){
+
+			if(backbutton.changeflag(touchX, touchY, true)){
+				close();
+			}
+			if(backgroundbutton.changeflag(touchX, touchY,true)){
+				activity.setView(Muphic.viewBackGroundSelect);
+			}
+			if(boybutton.changeflag(touchX, touchY, true)){
+
+			}
+		}
+
+		return true;
+	}
+
+	public void close() {
+		activity.setView(Muphic.viewStoryCreateWindow);
+
+	}
+
+	public void firstSelect() {
+
+	}
+
+	public void secondSelect() {
+
+	}
+
+	public void thirdSelect() {
+
+	}
+
+	public void delete() {
+
+	}
+
+	public void deleteAll() {
+
+	}
+
+}

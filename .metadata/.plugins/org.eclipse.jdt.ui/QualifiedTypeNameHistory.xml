@@ -4,5 +4,8 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="android.graphics.Color"/>
 <fullyQualifiedTypeName name="android.graphics.Canvas"/>
+<fullyQualifiedTypeName name="android.graphics.BitmapFactory"/>
 <fullyQualifiedTypeName name="project.muphic.Rikitakelab.R.drawable"/>
+<fullyQualifiedTypeName name="android.graphics.Paint.Style"/>
+<fullyQualifiedTypeName name="android.graphics.Rect"/>
 </qualifiedTypeNameHistroy>
