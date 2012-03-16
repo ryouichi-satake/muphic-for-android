@@ -1,0 +1,99 @@
+	private ArrayList<View> muphiclist;
+	private int place=0;
+	private TickHandler tickHandler;
+	public static final int viewTitle = 0;
+	public static final int viewStoryCreateWindow = 1;
+	public static final int viewMusicCreateWindow = 2;
+	public static final int viewBackGroundSelect = 3;
+	public static final int viewCharacterSelect = 4;
+
+まずここの部分から。ここはMuphicクラスの変数宣言のところだね。
+ここはArrayListに画面ごとのViewクラスを突っ込んでいく方式をとっております。
+何でこうするのかってのは後述ね。ここで振ってるfinal intの数字も割りと重要
+
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFormat(PixelFormat.TRANSLUCENT);
+        muphiclist=new ArrayList<View>();
+        muphiclist.clear();
+
+        Title.CreateTitle(this);
+        addContentView(Title.getInstance());
+
+        StoryCreateWindow.CreateSCW(this);
+        addContentView(StoryCreateWindow.getInstance());
+
+        MusicCreateWindow.CreateMCW(this);
+        addContentView(MusicCreateWindow.getInstance());
+
+        BackGroundSelect.CreateBGS(this);
+        addContentView(BackGroundSelect.getInstance());
+
+        CharacterSelect.CreateCS(this);
+        addContentView(CharacterSelect.getInstance());
+
+        setView(place);
+    }
+
+onCreateクラスっす。Androidプロジェクトを実行すると
+最初に実行されるっぽいので初期化を行なっています。
+
+addContentViewメソッドにViewクラスのインスタンスを引数として渡すと
+最初に変数宣言してたArrayList、muphiclistに突っ込まれます。
+
+それぞれのViewクラスにはCreateメソッドとgetInstanceメソッドを
+こんなかんじで実装してくださいね。
+	private Muphic activity = (Muphic)getContext();
+	private static Title title;
+
+
+	public static void CreateTitle(Muphic activity){
+		title= new Title(activity);
+	}
+
+	public static Title getInstance(){
+		return title;
+	}
+このactivityは画面遷移でも使用します。
+
+さて、画面遷移ですが、こちらをどうぞ
+		if(touchAction==MotionEvent.ACTION_UP){
+			if(startbutton.judge(touchX, touchY,true)){
+				activity.setView(Muphic.viewStoryCreateWindow);
+			}
+
+このようにMuphicクラスのsetViewメソッドにfinal int型で宣言していた変数名を
+いれることでmuphiclistにはいっているViewクラスを呼び出し、画面遷移を行います
+
+つまるところfinal int型変数はonCreateでaddContentViewする順番なのです。
+
+数字だと遷移の様子がややこしくなると思って変数名で置き換えて見やすくしてます。
+
+図形描画の方法は研究室にあったAndroidの教本に書いてましたものを流用してます。
+
+ボタンはButtonクラスを使っています。
+ここにボタンのx座標、y座標、押す前、押した時を引数として渡すとボタンにしてくれます。
+
+onTouchEventにて作成したボタンインスタンスのjudgeメソッドを実行してみるとボタンの範囲に入っていればtrue、入ってなければfalseが返ってきます。
+
+上の画面遷移のコードでは、スタートボタンの判定がtrueなら
+物語作成画面に遷移するって感じで判定と処理を行なっています。
+
+こんなもので大丈夫ですかね……？画像は全部入ってるので
+適宜差し替えながら開発してもらえればいいと思います。
+
+キャラクターや背景の選択をする編集画面はEditorクラスをimplementsして作ってください。
+
+プロダクトオーナーにプロトタイプをもらっておくと開発がスムーズだと思います。
+
+最後に、一度はテストコードを実行して見ることをおすすめします。
+
+タブレットにUSBで繋いで、
+AndroidSDKのtoolフォルダにmonkeyrunnerというプログラムがあるのでそこに
+muphictest.pyファイルをドラッグドロップすれば勝手にやってくれます。それで大体の遷移の流れが分かる気がしますので参考にどうぞ。
+
+その他、わからないことがあったらフェイスブックなりで質問してみてください。
+多分答えられると思います。答えられなかったら…ぐぐってください
+
+では、がんばってねぇ～
